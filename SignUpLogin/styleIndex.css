@@ -1,0 +1,508 @@
+@media screen and (max-width: 500px) {
+
+    body{
+        background-color: rgb(241, 227, 94);
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .lform
+    {
+        width: 350px;
+        height:max-content;
+        background-color: azure;
+        border: none;
+        border-radius: 10px;
+        padding: 20px;
+        font-family: 'Barlow', sans-serif;
+    }
+    
+    input{
+        width: 300px;
+        height: 40px;
+        font-weight: 500;
+        font-size: large;
+        margin: 10px;
+        border: 1px solid grey;
+        border-radius: 7px;
+        padding: 10px;
+    }
+    input[type=checkbox]{
+        width: 20px;
+        height: 20px;
+        margin: 10px;
+        border: 1px solid grey;
+        border-radius: 7px;
+        padding: 10px;
+    }
+    
+    button{
+        width: 200px;
+        height: 50px;
+        margin: 10px;
+        font-size: larger;
+        color: white;
+        border: none;
+        border-radius: 7px;
+        background-color: rgb(153, 137, 43);
+    }
+    
+    button:hover{
+        width: 200px;
+        height: 50px;
+        margin: 10px;
+        font-size: larger;
+        color: rgb(2, 2, 2);
+        border: none;
+        border-radius: 7px;
+        background-color: rgb(241, 212, 83);
+        box-shadow: 5px 7px gray;
+    }
+    
+    section{
+        width: 100%;
+    }
+    
+    .cReg{
+        margin-top: 30px;
+        margin-left: 60px;
+        width: 120rem;
+        font: larger;
+        background: #e2deb780;
+        padding: 30px;
+        border: 0px solid #def7e480;
+        border-radius: 5px;
+        height: 105rem;
+    
+    
+    }
+    select{
+        width: 200px;
+        height: 40px;
+        font-weight: 500;
+        font-size: large;
+        margin: 10px;
+        border: 1px solid grey;
+        border-radius: 7px;
+        padding: 10px;
+        background-color: white;
+    }
+    
+    .leftPart{
+        width: 50rem;
+        font: larger;
+        padding: 30px;
+        border: 0px solid #def7e480;
+        border-radius: 5px;
+        float: left;
+    
+    }
+    
+    .rightPart{
+        width: 50rem;
+        font: larger;
+        padding: 30px;
+        border: 0px solid #def7e480;
+        border-radius: 5px;
+        float: right;
+    
+    }
+    
+    /* dashboard */
+    .viewMsmeCandi{
+        margin-top: 200px;
+        margin-left: 60px;
+        width: 60rem;
+        font: larger;
+        background:  #79f0ef;
+        padding: 30px;
+        border: 0px solid #def7e480;
+        border-radius: 5px;
+        height: 128rem;
+    
+    }
+    
+    .btnSearch{
+        width: 200px;
+        height: 35px;
+        margin: 10px;
+        margin-left: 10px;
+        font-size: larger;
+        color: white;
+        border: none;
+        border-radius: 7px;
+        background-color: rgb(28, 136, 28);
+    }
+    
+    .btnSearch:hover{
+        width: 200px;
+        height: 35px;
+        margin: 10px;
+        margin-left: 10px;
+        font-size: larger;
+        color: rgb(2, 2, 2);
+        border: none;
+        border-radius: 7px;
+        background-color: yellow;
+    }
+    .lHead{
+        width: 300px;
+        height: 40px;
+        font-weight: 500;
+        font-size: large;
+        margin: 10px;
+    }
+    .lCont{
+        width: 300px;
+        height: 40px;
+        font-weight: 500;
+        font-size: large;
+        margin: 10px;
+        color: red;
+    }
+
+
+}
+
+
+@media screen and (min-width: 500px){
+
+    body{
+        background-color: rgb(241, 227, 94);
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .lform
+    {
+        width: 350px;
+        height:max-content;
+        background-color: azure;
+        border: none;
+        border-radius: 10px;
+        padding: 20px;
+        font-family: 'Barlow', sans-serif;
+    }
+    
+    input{
+        width: 300px;
+        height: 40px;
+        font-weight: 500;
+        font-size: large;
+        margin: 10px;
+        border: 1px solid grey;
+        border-radius: 7px;
+        padding: 10px;
+    }
+    input[type=checkbox]{
+        width: 20px;
+        height: 20px;
+        margin: 10px;
+        border: 1px solid grey;
+        border-radius: 7px;
+        padding: 10px;
+    }
+    
+    button{
+        width: 200px;
+        height: 50px;
+        margin: 10px;
+        font-size: larger;
+        color: white;
+        border: none;
+        border-radius: 7px;
+        background-color: rgb(153, 137, 43);
+    }
+    
+    button:hover{
+        width: 200px;
+        height: 50px;
+        margin: 10px;
+        font-size: larger;
+        color: rgb(2, 2, 2);
+        border: none;
+        border-radius: 7px;
+        background-color: rgb(241, 212, 83);
+        box-shadow: 5px 7px gray;
+    }
+    
+    section{
+        width: 100%;
+
+    }
+    
+    .cReg{
+        margin-top: 30px;
+        margin-left: 60px;
+        width: 120rem;
+        font: larger;
+        background: #e2deb780;
+        padding: 30px;
+        border: 0px solid #def7e480;
+        border-radius: 5px;
+        height: 105rem;
+    
+    
+    }
+    select{
+        width: 200px;
+        height: 40px;
+        font-weight: 500;
+        font-size: large;
+        margin: 10px;
+        border: 1px solid grey;
+        border-radius: 7px;
+        padding: 10px;
+        background-color: white;
+    }
+    
+    .leftPart{
+        width: 50rem;
+        font: larger;
+        padding: 30px;
+        border: 0px solid #def7e480;
+        border-radius: 5px;
+        float: left;
+    
+    }
+    
+    .rightPart{
+        width: 50rem;
+        font: larger;
+        padding: 30px;
+        border: 0px solid #def7e480;
+        border-radius: 5px;
+        float: right;
+    
+    }
+    
+    /* dashboard */
+    .viewMsmeCandi{
+        margin-top: 30px;
+        margin-left: 60px;
+        width: 60rem;
+        font: larger;
+        background:  #bff0ef;
+        padding: 30px;
+        border: 0px solid #def7e480;
+        border-radius: 5px;
+        height: 165rem;
+        float: left;
+    
+    }
+
+    
+    .btnSearch{
+        width: 200px;
+        height: 35px;
+        margin: 10px;
+        margin-left: 10px;
+        font-size: larger;
+        color: white;
+        border: none;
+        border-radius: 7px;
+        background-color: rgb(28, 136, 28);
+    }
+    
+    .btnSearch:hover{
+        width: 200px;
+        height: 35px;
+        margin: 10px;
+        margin-left: 10px;
+        font-size: larger;
+        color: rgb(2, 2, 2);
+        border: none;
+        border-radius: 7px;
+        background-color: yellow;
+    }
+    .lHead{
+        width: 300px;
+        height: 40px;
+        font-weight: 500;
+        font-size: large;
+        margin: 10px;
+    }
+    .lCont{
+        width: 300px;
+        height: 40px;
+        font-weight: 500;
+        font-size: large;
+        margin: 10px;
+        color: red;
+    }
+
+    
+}
+
+
+@media screen and (min-width: 1000px) {
+
+    body{
+        background-color: rgb(241, 227, 94);
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .lform
+    {
+  
+        width: 350px;
+        height:max-content;
+        background-color: azure;
+        border: none;
+        border-radius: 10px;
+        padding: 20px;
+        font-family: 'Barlow', sans-serif;
+    }
+    
+    input{
+        width: 300px;
+        height: 40px;
+        font-weight: 500;
+        font-size: large;
+        margin: 10px;
+        border: 1px solid grey;
+        border-radius: 7px;
+        padding: 10px;
+    }
+    input[type=checkbox]{
+        width: 20px;
+        height: 20px;
+        margin: 10px;
+        border: 1px solid grey;
+        border-radius: 7px;
+        padding: 10px;
+    }
+    
+    button{
+        width: 200px;
+        height: 50px;
+        margin: 10px;
+        font-size: larger;
+        color: white;
+        border: none;
+        border-radius: 7px;
+        background-color: rgb(153, 137, 43);
+    }
+    
+    button:hover{
+        width: 200px;
+        height: 50px;
+        margin: 10px;
+        font-size: larger;
+        color: rgb(2, 2, 2);
+        border: none;
+        border-radius: 7px;
+        background-color: rgb(241, 212, 83);
+        box-shadow: 5px 7px gray;
+    }
+    
+    section{
+        width: 100%;
+    }
+    
+    .cReg{
+        margin-top: 30px;
+        margin-left: 60px;
+        width: 120rem;
+        font: larger;
+        background: #e2deb780;
+        padding: 30px;
+        border: 0px solid #def7e480;
+        border-radius: 5px;
+        height: 105rem;
+    
+    
+    }
+    select{
+        width: 200px;
+        height: 40px;
+        font-weight: 500;
+        font-size: large;
+        margin: 10px;
+        border: 1px solid grey;
+        border-radius: 7px;
+        padding: 10px;
+        background-color: white;
+    }
+    
+    .leftPart{
+        width: 50rem;
+        font: larger;
+        padding: 30px;
+        border: 0px solid #def7e480;
+        border-radius: 5px;
+        float: left;
+    
+    }
+    
+    .rightPart{
+        width: 50rem;
+        font: larger;
+        padding: 30px;
+        border: 0px solid #def7e480;
+        border-radius: 5px;
+        float: right;
+    
+    }
+    
+    /* dashboard */
+    .viewMsmeCandi{
+        margin-top: 30px;
+        margin-left: 60px;
+        width: 60rem;
+        font: larger;
+        background:  #bff0ef;
+        padding: 30px;
+        border: 0px solid #def7e480;
+        border-radius: 5px;
+        height: 165rem;
+        float: left;
+    
+    }
+
+    
+    .btnSearch{
+        width: 200px;
+        height: 35px;
+        margin: 10px;
+        margin-left: 10px;
+        font-size: larger;
+        color: white;
+        border: none;
+        border-radius: 7px;
+        background-color: rgb(28, 136, 28);
+    }
+    
+    .btnSearch:hover{
+        width: 200px;
+        height: 35px;
+        margin: 10px;
+        margin-left: 10px;
+        font-size: larger;
+        color: rgb(2, 2, 2);
+        border: none;
+        border-radius: 7px;
+        background-color: yellow;
+    }
+    .lHead{
+        width: 300px;
+        height: 40px;
+        font-weight: 500;
+        font-size: large;
+        margin: 10px;
+    }
+    .lCont{
+        width: 300px;
+        height: 40px;
+        font-weight: 500;
+        font-size: large;
+        margin: 10px;
+        color: red;
+    }
+
+    
+}
